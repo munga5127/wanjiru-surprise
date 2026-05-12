@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Smiley 💖</title>
+  <meta name="description" content="A special surprise for someone special">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen">
+    <div class="loading-heart">
+      <svg viewBox="0 0 32 29.6"><path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/></svg>
+    </div>
+    <div class="loading-text">Preparing something special...</div>
+  </div>
+
+  <!-- FLOATING HEARTS BACKGROUND -->
+  <div class="floating-hearts" id="floating-hearts"></div>
+
+  <!-- NAVIGATION DOTS -->
+  <nav class="nav-dots" id="nav-dots"></nav>
+
+  <!-- MUSIC TOGGLE -->
+  <button id="music-toggle" title="Toggle Music">🎵</button>
+
+  <!-- ===== SECTION 1: HERO ===== -->
+  <section id="hero">
+    <p class="hero-subtitle">✨ This one's for you ✨</p>
+    <h1 class="hero-title">Hey Smiley 💖</h1>
+    <div class="hero-emoji">👑</div>
+    <p class="hero-tagline">Scroll down for a little surprise I made just for you, Queen...</p>
+    <div class="scroll-indicator"><span></span></div>
+  </section>
+
+  <!-- ===== SECTION 2: ABOUT HER ===== -->
+  <section id="about">
+    <h2 class="section-title reveal">The One & Only Wanjiru</h2>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="icon">💃</div>
+        <h3>The Dancer</h3>
+        <p>When the music hits, nothing can stop those moves. The dance floor wasn't ready for you, Smiley.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="icon">🎵</div>
+        <h3>Music Lover</h3>
+        <p>From afrobeats to R&B — your playlist is a whole vibe. You don't just listen, you FEEL it.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="icon">👩‍💻</div>
+        <h3>IT Queen</h3>
+        <p>Leading the Service Desk like a boss. "Have you tried turning it off and on again?" — but make it fashion.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="icon">🖤</div>
+        <h3>Black Everything</h3>
+        <p>Black outfits, black mood, black excellence. Your aesthetic is ELITE and you own it.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="icon">😊</div>
+        <h3>Smiley</h3>
+        <p>That smile could end wars and start butterflies. They didn't give you that name for nothing.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="icon">🦁</div>
+        <h3>Dreadlock Queen</h3>
+        <p>Those locks? A whole CROWN. You carry them like royalty because you ARE royalty.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 3: GALLERY ===== -->
+  <section id="gallery">
+    <h2 class="section-title reveal">Moments of You ✨</h2>
+    <p class="reveal" style="color:var(--text-secondary);margin-bottom:25px;text-align:center;">Replace these with her real photos 📸</p>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder"><span class="icon">📸</span><span>Photo 1</span></div>
+        <div class="gallery-overlay"><span>Beautiful 💖</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder"><span class="icon">📸</span><span>Photo 2</span></div>
+        <div class="gallery-overlay"><span>Stunning ✨</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder"><span class="icon">📸</span><span>Photo 3</span></div>
+        <div class="gallery-overlay"><span>Queen 👑</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder"><span class="icon">📸</span><span>Photo 4</span></div>
+        <div class="gallery-overlay"><span>Smiley 😊</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 4: MESSAGES ===== -->
+  <section id="messages">
+    <h2 class="section-title reveal">Tap to Reveal 💌</h2>
+    <div class="messages-container">
+      <div class="message-card reveal" onclick="this.classList.toggle('revealed')">
+        <div class="card-front">
+          <span class="card-label sweet">Sweet</span>
+          <div class="envelope">💌</div>
+          <p>Tap to open...</p>
+        </div>
+        <div class="card-back">
+          <p>Your smile is my favourite notification. No ticket on the service desk compares to seeing your name on my screen 💖</p>
+        </div>
+      </div>
+      <div class="message-card reveal" onclick="this.classList.toggle('revealed')">
+        <div class="card-front">
+          <span class="card-label naughty">Naughty</span>
+          <div class="envelope">🔥</div>
+          <p>Are you brave enough? Tap...</p>
+        </div>
+        <div class="card-back">
+          <p>If you were a ticket, you'd be Priority 1 — because I can't stop thinking about you and it's becoming an emergency 😏🔥</p>
+        </div>
+      </div>
+      <div class="message-card reveal" onclick="this.classList.toggle('revealed')">
+        <div class="card-front">
+          <span class="card-label sweet">Sweet</span>
+          <div class="envelope">✨</div>
+          <p>This one's special...</p>
+        </div>
+        <div class="card-back">
+          <p>You lead a whole team with grace, dance like nobody's watching, and still manage to be the sweetest soul. Wanjiru, you're literally magic ✨</p>
+        </div>
+      </div>
+      <div class="message-card reveal" onclick="this.classList.toggle('revealed')">
+        <div class="card-front">
+          <span class="card-label naughty">Naughty</span>
+          <div class="envelope">😈</div>
+          <p>Last chance to turn back...</p>
+        </div>
+        <div class="card-back">
+          <p>I'd let you troubleshoot my heart any day... but fair warning — the issue is that it beats faster every time you're around 😈💓</p>
+        </div>
+      </div>
+      <div class="message-card reveal" onclick="this.classList.toggle('revealed')">
+        <div class="card-front">
+          <span class="card-label sweet">Sweet</span>
+          <div class="envelope">🌹</div>
+          <p>One more for you...</p>
+        </div>
+        <div class="card-back">
+          <p>In a world full of noise, your laugh is my favourite sound. In a room full of people, my eyes always find you first, Smiley 🌹</p>
+        </div>
+      </div>
+      <div class="message-card reveal" onclick="this.classList.toggle('revealed')">
+        <div class="card-front">
+          <span class="card-label naughty">Spicy</span>
+          <div class="envelope">🌶️</div>
+          <p>You sure about this one? 👀</p>
+        </div>
+        <div class="card-back">
+          <p>Those dreads, that smile, that walk... Wanjiru, you don't just enter a room, you take it OVER. And honestly? I'm not even trying to resist 🌶️😏</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 5: KIKUYU JOKES ===== -->
+  <section id="jokes">
+    <h2 class="section-title reveal">😂 IT Meets Kikuyu Corner</h2>
+    <div class="jokes-container">
+      <div class="joke-card reveal" onclick="this.classList.toggle('open')">
+        <div class="joke-q">🤔 Wanjiru angiuka Service Desk na ticket ĩmwe, agĩtiga atĩa?</div>
+        <div class="joke-a">😂 "Have you tried kũhũra na kũũhĩrĩria?" — Turning it off and on, Kikuyu edition!</div>
+      </div>
+      <div class="joke-card reveal" onclick="this.classList.toggle('open')">
+        <div class="joke-q">🤔 Why is Smiley the best IT Team Leader?</div>
+        <div class="joke-a">😂 Because when systems go down, her smile keeps the whole office running! Even the servers are jealous.</div>
+      </div>
+      <div class="joke-card reveal" onclick="this.classList.toggle('open')">
+        <div class="joke-q">🤔 Mũndũ agĩcokeria Wanjiru ticket ya password reset...tene atĩa?</div>
+        <div class="joke-a">😂 Wanjiru: "Nĩ password yaku ĩrĩ weak, ta relationship yaku!" 💀😂</div>
+      </div>
+      <div class="joke-card reveal" onclick="this.classList.toggle('open')">
+        <div class="joke-q">🤔 What's the difference between Smiley and Google?</div>
+        <div class="joke-a">😂 Google gives you a million answers. Smiley gives you THE answer — with a smile AND dreads flipping. Case closed!</div>
+      </div>
+      <div class="joke-card reveal" onclick="this.classList.toggle('open')">
+        <div class="joke-q">🤔 Wanjiru akĩrũgama dance floor, WiFi ĩkĩĩka atĩa?</div>
+        <div class="joke-a">😂 Signal ĩkĩingĩha to full bars! Because Smiley IS the connection 📶💃</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 6: QUIZ ===== -->
+  <section id="quiz">
+    <h2 class="section-title reveal">🎯 How Well Do You Know Yourself, Smiley?</h2>
+    <div class="quiz-container reveal" id="quiz-box">
+      <div class="quiz-progress" id="quiz-progress"></div>
+      <div class="quiz-question" id="quiz-question"></div>
+      <div class="quiz-options" id="quiz-options"></div>
+      <div class="quiz-result" id="quiz-result">
+        <div class="score" id="quiz-score"></div>
+        <div class="remark" id="quiz-remark"></div>
+        <button class="game-btn" onclick="startQuiz()" style="margin-top:20px">Try Again 🔄</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 7: MINI GAME ===== -->
+  <section id="game">
+    <h2 class="section-title reveal">🎮 Catch the Hearts!</h2>
+    <p class="reveal" style="color:var(--text-secondary);margin-bottom:15px">Move your finger/mouse to catch falling hearts</p>
+    <div class="game-container reveal">
+      <canvas id="game-canvas"></canvas>
+      <div class="game-score">Score: <span id="game-score-val">0</span></div>
+      <button class="game-btn" id="game-start-btn" onclick="startGame()">Start Game 💖</button>
+    </div>
+  </section>
+
+  <!-- ===== SECTION 8: LOVE LETTER ===== -->
+  <section id="love-letter">
+    <h2 class="section-title reveal">💖 From Me To You</h2>
+    <div class="letter-box reveal">
+      <p class="letter-text">
+        Dear <span class="highlight">Wanjiru</span>,<br><br>
+        I made this little corner of the internet just for you, because you deserve to know how special you are.<br><br>
+        You walk into a room and everything gets <span class="highlight">brighter</span>. You lead your team like a queen, dance like the music was made for you, and laugh like the world has no problems.<br><br>
+        Your dreads are a <span class="highlight">crown</span>, your smile is a <span class="highlight">gift</span>, and your energy? Absolutely <span class="highlight">magnetic</span>.<br><br>
+        I just wanted you to know... someone out here thinks you're <span class="highlight">incredible</span>. And that someone made you a whole website to prove it. 😉<br><br>
+        Keep smiling, <span class="highlight">Smiley</span>. The world needs it. I need it. 💖
+      </p>
+      <div class="letter-signature">— With love, always 🖤✨</div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
